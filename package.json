@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "proyecto-nodejs",
+  "version": "1.0.0",
+  "description": "Proyecto creado bajo Node.js - Express - ejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "MSc. Daniel Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

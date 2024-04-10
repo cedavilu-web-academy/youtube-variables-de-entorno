@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../img/all-terrain-vehicle-338914_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.mensaje{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    text-align: center;
+}
+.mensaje h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+.mensaje h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
